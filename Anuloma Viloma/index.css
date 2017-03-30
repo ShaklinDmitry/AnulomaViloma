@@ -1,0 +1,47 @@
+body{
+	background-image: url(images/intro.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+header{
+	font-size:44px;
+	margin-top: 100px;
+	color:#f5f5f5;
+	font-family: 'Playfair Display', serif;
+}
+
+.button-row{
+	margin-top: 60px;
+}
+
+.button{
+	border:1px solid #f5f5f5;
+	padding: 10px 20px;
+	font-size: 25px;
+	color:#f5f5f5;
+	font-family: 'Playfair Display', serif;
+}
+
+.button-row a:link{
+	text-decoration: none;
+}
+
+.button-row a:visited{
+	color:white;
+	text-decoration: none;
+}
+
+.button-row a:hover{
+	color:#ccc;
+	text-decoration: none;
+}
+
+.description{
+	margin-top: 80px;
+	color:#f5f5f5;
+}
+
+
+
+
