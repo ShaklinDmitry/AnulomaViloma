@@ -14,10 +14,6 @@ mode_button.onclick = function(){
 
 	if(clicksCounter%2 === 0){
 
-/*	$(mode_button).animate({
-		scale:'1.1'
-	},animationTime)	
-*/
 	$(easy_mode_button).animate({
 		top: '-=100px',
 		left: '-=120px',
@@ -39,11 +35,6 @@ mode_button.onclick = function(){
 	}
 
 	else{
-
-	/*	$(mode_button).animate({
-				scale:'1'
-			},animationTime)	
-*/
 		$(easy_mode_button).animate({
 			top: '+=100px',
 			left: '+=120px',
@@ -70,6 +61,10 @@ mode_button.onclick = function(){
 
 };
 
-mode_button.onmouseout = function(){
-	 console.log('out');
+easy_mode_button.onclick = function(){
+	SetEasyMode();
+}
+
+hard_mode_button.onclick = function(){
+	SetHardMode();
 }

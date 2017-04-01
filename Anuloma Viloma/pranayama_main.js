@@ -56,3 +56,22 @@ function timer(){
 
  //   clearInterval(x);
 }
+
+
+function SetEasyMode(){
+	secondsCounter = 0;
+	phaseCounter = 0;
+
+	inhale = 4;
+    exhale = 4;
+    delay = 1;
+}
+
+function SetHardMode(){
+	secondsCounter = 0;
+	phaseCounter = 0;
+
+	inhale = 5;
+    exhale = 5;
+    delay = 2;
+}
