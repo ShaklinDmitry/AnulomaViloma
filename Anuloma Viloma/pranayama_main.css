@@ -1,3 +1,11 @@
+body{
+	background-image: url(images/intro.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	color:white;
+	font-family: 'Playfair Display', serif;
+}
+
 #action{
 	font-size: 44px;
 	margin-top: 100px;
@@ -7,7 +15,6 @@
 	font-size: 44px;
 	margin-top: 100px;
 }
-
 
  .button-parent{
  	 margin-top: 145px;
@@ -50,4 +57,5 @@
 }
 
 .button-animation{}
+
 
