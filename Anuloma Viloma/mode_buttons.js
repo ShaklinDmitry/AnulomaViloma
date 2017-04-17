@@ -3,10 +3,10 @@ var hard_mode_button = document.getElementById('hard_mode_button');
 
 var currentMode;
 
-easy_mode_button.onclick = function(){
+function easy_mode_button_time_set(){
 	currentMode = 'easy';
 }
 
-hard_mode_button.onclick = function(){
+function hard_mode_button_time_set(){
 	currentMode = 'hard';
 }

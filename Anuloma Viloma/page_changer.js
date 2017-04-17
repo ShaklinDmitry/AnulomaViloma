@@ -32,9 +32,13 @@ tutorial_button.onclick = function(){
 easy_mode_button.onclick = function(){
 	mode_page.style.display = 'none';
 	pranayama_main_page.style.display = 'block';
+
+	easy_mode_button_time_set();
 }
 
 hard_mode_button.onclick = function(){
 	mode_page.style.display = 'none';
 	pranayama_main_page.style.display = 'block';
+
+	hard_mode_button_time_set();
 }

@@ -1,6 +1,6 @@
-var inhale = 2;
-var exhale = 4;
-var delay = 1;
+var inhale;
+var exhale;
+var delay;
 
 var secondsCounter = 0;
 var phaseCounter = 0;
@@ -11,16 +11,18 @@ var exhaleLabel = 'ВЫДОХ';
 
 var startPranayamaButton = document.getElementById('start_pranayama_button');
 
-if(currentMode == 'easy'){
-	SetEasyMode();
-}
-if(currentMode == 'hard'){
-	SetHardMode();
-}
 
 startPranayamaButton.onclick = function(){
 
 startPranayamaButton.style.display = 'none';
+
+if(currentMode === 'easy'){
+	SetEasyMode();
+}
+if(currentMode === 'hard'){
+	SetHardMode();
+}
+
 //так как в setInterval есть задержка при первом запуске, то сначла запущу вручную
 timer();
 // Update the count down every 1 second
