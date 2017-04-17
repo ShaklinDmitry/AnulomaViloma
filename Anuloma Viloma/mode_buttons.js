@@ -1,5 +1,5 @@
-var easy_mode_button = document.getElementById('easy');
-var hard_mode_button = document.getElementById('hard');
+var easy_mode_button = document.getElementById('easy_mode_button');
+var hard_mode_button = document.getElementById('hard_mode_button');
 
 var currentMode;
 

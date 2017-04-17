@@ -1,4 +1,4 @@
-var inhale = 4;
+var inhale = 2;
 var exhale = 4;
 var delay = 1;
 
@@ -9,13 +9,26 @@ var inhaleLabel = 'ВДОХ';
 var delayLabel = 'ЗАДЕРЖКА'
 var exhaleLabel = 'ВЫДОХ';
 
+var startPranayamaButton = document.getElementById('start_pranayama_button');
+
+if(currentMode == 'easy'){
+	SetEasyMode();
+}
+if(currentMode == 'hard'){
+	SetHardMode();
+}
+
+startPranayamaButton.onclick = function(){
+
+startPranayamaButton.style.display = 'none';
 //так как в setInterval есть задержка при первом запуске, то сначла запущу вручную
 timer();
 // Update the count down every 1 second
 var x = setInterval(timer, 1000);
 
-
 function timer(){
+	
+
 	document.getElementById("time").innerHTML = secondsCounter;
 
    	if(secondsCounter === 0){
@@ -56,7 +69,7 @@ function timer(){
 
  //   clearInterval(x);
 }
-
+}
 
 function SetEasyMode(){
 	secondsCounter = 0;

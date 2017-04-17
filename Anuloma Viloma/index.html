@@ -7,7 +7,7 @@
     <title>Bootstrap 101 Template</title>
 
 
-    <link href="index.css" rel="stylesheet">
+    
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
 
     <!-- Bootstrap -->
@@ -20,8 +20,17 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <link href="index.css" rel="stylesheet">
+    <link href='tutorial.css' rel="stylesheet">
+    <link href='mode.css' rel="stylesheet">
+    <link href='pranayama_main.css' rel="stylesheet">
+
+
   </head>
   <body>
+
+<!--начальное окно -->
+  <div id="intro_page">
     <div class="container">
         <div class="row">
           <div class="col-md-6 text-center">
@@ -30,7 +39,7 @@
         </div>
         <div class="row">
           <div class="col-md-6 text-center button-row">
-            <a href="tutorial.html" class="button">Начать</a>
+            <a class="button-intro" id='intro_button'>Начать</a>
           </div>
         </div>
         <div class="row">
@@ -49,11 +58,105 @@
         </div>
       </div>
     </div>
+  </div>
+  
+
+  <!--окно с обучением  -->
+  <div id='tutorial_page'>
+    <div class="layer"></div>
+    <div class='container'>
+      <div class = 'row tutorial-list'>
+        <div class='col-md-2'></div>
+        <div class='col-md-8'>
+
+        <h1 class="title">Обучение</h1>
+
+        <ul>
+          <li>Поместите средний и указательный пальцы правой руки на лоб, в точку между бровями. Большим пальцем этой же ладони закройте правую ноздрю.</li>
+          
+          <li>Сделайте глубокий вдох левой ноздрёй, медленно считая в уме.</li>
+
+          <li>Когда вы полностью вдохнёте, закройте левую ноздрю мизинцем и безымянным пальцем, отпустив при этом другую ноздрю. Все действия выполняйте правой рукой.</li>
+
+          <li>Выдыхайте теперь уже свободной правой ноздрёй на тот же счёт, за который вы вдохнули.</li>
+
+          <li>Вдохните через правую ноздрю, не забывая об отсчёте времени. Затем отпустите левую ноздрю, большим пальцем прикройте правую и плавно выдыхайте. На этом заканчивается цикл упражнения.</li> 
+          </ul>        
+        </div>
+        <div class='col-md-2'></div>
+      </div>
+
+      <div class='row'>
+        <div class='col-md-8'></div>
+        <div class='col-md-2 text-center button-parent'>
+          <a class="button-tutorial" id='tutorial_button'>Далее</a>
+        </div>
+        <div class='col-md-2'></div>
+      </div>
+    </div>
+  </div>
+
+<!-- окно с выбором режима -->
+  <div id='mode_page'>
+    <div class="layer"></div>
+    <div class='container'>
+      <div class = 'row mode'>
+        <div class='col-md-4 col-sm-4 col-xs-4 col-lg-4'></div>
+        <div class='col-md-4 col-sm-4 col-xs-4 col-lg-4'>
+
+        <h1 class="title text-center">Режим</h1>
+ 
+        <div class="button-parent">
+          <a class='button-mode' id='easy_mode_button'>Легкий</a>        
+          <a class='button-mode' id='hard_mode_button'>Сложный</a>
+        </div>
+
+        </div>
+        <div class='col-md-4 col-sm-4 col-xs-4 col-lg-4'></div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- основное окно с счетчиком  -->
+  <div id='pranayama_main_page'>
+    <div class='container'>
+      <div class = 'row text-center col-md-12 col-sm-12 col-xs-12 col-lg-12'>
+        <div id='action'>ВДОХ</div>
+      </div>
+      <div class = 'row text-center col-md-12 col-sm-12 col-xs-12 col-lg-12'>
+          <div id='time'>0</div>
+      </div>
+      <div class = 'row start_pranayama_button_parent text-center col-md-12 col-sm-12 col-xs-12 col-lg-12'>
+          <a id='start_pranayama_button'>Начать</a>
+      </div>
+
+    </div>
+
+   <!--<div class='container'>
+      <div class = 'row'>
+        <div class="text-center col-md-12 button-parent">
+         <div class="button" id="mode-button" style="z-index: 3" />
+         Режим
+            <div class="button" id='easy_mode' style="z-index: 2"/>Легкий</div>
+            <div class="button" id='hard_mode' style="z-index: 1"/>Сложный</div>
+         </div>         
+        </div>
+      </div>
+    </div>-->
+  </div>
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+    
+    <script src='mode_buttons.js'></script>
+    <script src='pranayama_main.js'></script>
+    <script src='page_changer.js'></script>
+
 
   </body>
 </html>
