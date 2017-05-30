@@ -1,3 +1,4 @@
+
 body{
 	background-image: url(images/intro.jpg);
 	background-repeat: no-repeat; 
@@ -8,39 +9,32 @@ body{
     -o-background-size: cover;
     background-size: cover; 
 
-	color:white;
+	color: white;
 	font-family: 'Neucha', cursive;
 }
 
 header{
 	font-size:44px;
 	margin-top: 100px;
-	color:#f5f5f5;
 	font-family: 'Neucha', cursive;
 }
 
-.button-row{
-	margin-top: 30px;
-}
-
-.button-intro{
+#intro_button{
 	border:1px solid #f5f5f5;
 	padding: 10px 20px;
 	font-size: 25px;
-	color:#f5f5f5;
 }
 
-.button-row a:link{
-	text-decoration: none;
+.intro_button_parent{
+	margin-top: 30px;
 }
 
-.button-row a:visited{
-	color:white;
-	text-decoration: none;
+.intro_button_parent a{
+	color: white;
 }
 
-.button-row a:hover{
-	color:#ccc;
+.intro_button_parent a:hover{
+	color: #cccccc;
 	text-decoration: none;
 }
 
