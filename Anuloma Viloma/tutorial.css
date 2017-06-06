@@ -9,37 +9,31 @@
     opacity: 0.5;
 }
 
-.tutorial-list{
+.tutorial_list{
 	margin-top: 80px;
 	font-size: 15px;
 }
 
-.title{
+.tutorial_title{
 	padding-bottom: 15px;
 }
 
-.button-tutorial{
+#tutorial_button{
 	border:1px solid #f5f5f5;
 	padding: 10px 20px;
-	font-size: 25px;
-	color:#f5f5f5;
 }
 
-.tutorial-button-parent{
+.tutorial_button_parent{
 	margin-top: 100px;
 	margin-bottom: 45px;
 }
 
-.tutorial-button-parent a:link{
-	text-decoration: none;
-}
-
-.tutorial-button-parent a:visited{
+.tutorial_button_parent a{
 	color:white;
-	text-decoration: none;
+	font-size: 25px;
 }
 
-.tutorial-button-parent a:hover{
-	color:#ccc;
+.tutorial_button_parent a:hover{
+	color:#cccccc;
 	text-decoration: none;
 }
