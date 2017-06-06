@@ -11,8 +11,6 @@
 #start_pranayama_button{
 	border:1px solid #f5f5f5;
 	padding: 10px 40px;
-	font-size: 25px;
-	color:#f5f5f5;
 	display: inline;
 }
 
@@ -21,59 +19,13 @@
 	margin-bottom: 45px;
 }
 
-.start_pranayama_button_parent a:link{
-	text-decoration: none;
-}
-
-.start_pranayama_button_parent a:visited{
+.start_pranayama_button_parent a{
+	font-size: 25px;
 	color:white;
-	text-decoration: none;
 }
 
 .start_pranayama_button_parent a:hover{
 	color:#ccc;
 	text-decoration: none;
 }
-
-
- .button-parent{
- 	 margin-top: 145px;
- }
-
-.button{
-	 position: absolute;
-	 width:200px;
-	 
-
-	 text-decoration:none; 
-	 text-align:center; 
-	 padding:11px 43px; 
-	 border:solid 1px #edf4f7; 
-	 -webkit-border-radius:25px;
-	 -moz-border-radius:25px; 
-	 border-radius: 25px; 
-	 font:17px Arial, Helvetica, sans-serif; 
-	 font-weight:bold; 
-	 color:#3092bf; 
-	 background:#ffffff; 
-	 -webkit-box-shadow:0px 0px 2px #dedede, inset 0px 0px 1px #fafbff; 
-	 -moz-box-shadow: 0px 0px 2px #dedede,  inset 0px 0px 1px #fafbff;  
-	 box-shadow:0px 0px 2px #dedede, inset 0px 0px 1px #fafbff;  
-	 opacity:0.73; 
-	 text-shadow: 1px 1px 0px #f7f7f7; 
-	 filter: dropshadow(color=#f7f7f7, offx=1, offy=1);
- }
-
-.button-parent:link{
-	text-decoration:none;
-}
-
-.button-parent:visited{
-	text-decoration:none;
-}
-
-.button-parent:hover{
-	text-decoration:none; 
-}
-
 
