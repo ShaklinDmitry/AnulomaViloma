@@ -1,14 +1,4 @@
 
-.layer{
-	position: fixed;
-    top: 0px;
-    left: 0px;
-    bottom: 0px;
-    right: 0px;
-    background-color: #000000;
-    opacity: 0.5;
-}
-
 .tutorial_list{
 	margin-top: 80px;
 	font-size: 15px;
